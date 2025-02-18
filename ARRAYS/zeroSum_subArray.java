@@ -1,6 +1,6 @@
 package HashMap;
 import java.util.HashMap;
-import java.util.Scanner;
+import java.util.Scanner; 
 
 public class zeroSum_subArray {
     public static void main(String[] args) {
