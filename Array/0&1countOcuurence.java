@@ -3,7 +3,7 @@ package ARRAYS;
 https://www.geeksforgeeks.org/batch/gfg-160-problems/track/sorting-gfg-160/problem/sort-an-array-of-0s-1s-and-2s4231
 Sort 0s, 1s and 2s
 Given an array arr[] containing only 0s, 1s, and 2s. Sort the array in ascending order.
-You need to solve this problem without utilizing the built-in sort function.
+You need to solve this problem without utilizing the built-in sort function .
 Examples:
 Input: arr[] = [0, 1, 2, 0, 1, 2]
 Output: [0, 0, 1, 1, 2, 2]
@@ -15,9 +15,9 @@ public class countOcuurence {
         arr[i] = arr[j];
         arr[j] = temp;
     }
-
+///Solution
     static void sort(int arr[]){
-        int mid =0;
+        int mid = 0;
         int low  =0 ;
         int n = arr.length;
         int h = n-1;
