@@ -13,7 +13,7 @@ package GFG_160_SERIES;
      *      arr[1] + arr[2] + arr[3] = (-1) + (-1) + (0) = -2*/
 import java.util.Scanner;
 
-public class GFG_60_Count_all_triplets_with_given_sum_in_sorted_array {
+public class GFG_51_Count_all_triplets_with_given_sum_in_sorted_array {
   ///Driver Code 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
