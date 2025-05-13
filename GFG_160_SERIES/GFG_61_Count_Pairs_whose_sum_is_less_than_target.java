@@ -10,7 +10,7 @@ package GFG_160_SERIES;
 import java.util.Arrays;
 import java.util.Scanner;
 ///Driver Code.
-public class GFG_61_Count_Pairs_whose_sum_is_less_than_target {
+public class GFG_52_Count_Pairs_whose_sum_is_less_than_target {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter The Element:");
