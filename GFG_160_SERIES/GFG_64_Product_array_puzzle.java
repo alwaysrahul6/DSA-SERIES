@@ -34,7 +34,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 
-public class GFG_63_Product_array_puzzle {
+public class GFG_64_Product_array_puzzle {
     /// ----------------------Driver Code-----------------------------------------------//
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
