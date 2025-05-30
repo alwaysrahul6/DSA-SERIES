@@ -22,7 +22,7 @@ import java.util.Scanner;
   */
 
 
-    public class GFG_68_Linked_List_Group_Reverse {
+    public class GFG_69_Linked_List_Group_Reverse {
         static Scanner sc = new Scanner(System.in);
 
         /// Structure
