@@ -14,8 +14,8 @@ public class Decreasing_Binary_Search {
             }else
                 j = mid -1;
         }
-        return -1;
-    }
+         return -1;
+    } 
 
     public static void main(String[] args) {
         int arr[] = {20,19,18,17,15,14,12,11,5};
