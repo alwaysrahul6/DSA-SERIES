@@ -6,7 +6,7 @@ package GFG;
 * Examples :
 * Input: s = "abab"
 * Output: 2
-* Explanation: "ab" is the longest prefix and suffix.
+* Explanation: "ab" is the longest  prefix and suffix.
  */
 public class GFG_Longest_Prefix_Suffix {
     private static int solve(String s){
