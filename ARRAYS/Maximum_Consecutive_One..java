@@ -2,7 +2,7 @@ package ARRAYS;
 
 public class Maximum_Consecutive_One {
     static int consecutive(int arr[]){
-        int max =0;
+        int max = 0;
         int count  = 0;
         for (int i =0;i< arr.length;i++){
             if (arr[i] == 1){
