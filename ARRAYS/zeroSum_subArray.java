@@ -9,7 +9,7 @@ public class zeroSum_subArray {
         int n = sc.nextInt();
         int arr[] = new int [n];
         System.out.println("Enter Elements");
-        for (int  i=0;i<n;i++){
+        for (int  i = 0 ;i < n;i++){
             arr[i] = sc.nextInt();
         }
         System.out.println(findSubarray(arr));
