@@ -1,5 +1,16 @@
 package GFG_160_SERIES;
-// k-th Smallest in BST
+/*     *   https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160/problem/find-k-th-smallest-element-in-bst
+*      *    k-th Smallest in BST
+*      *   Q. Given a BST and an integer k,
+*      *    the task is to find the kth smallest element in the BST. If there is no kth smallest element present then return -1.
+       *    Examples:
+       *    Input: root = [2, 1, 3], k = 2
+       *    Output: 2
+       *       2
+       *      / \
+       *     1   3
+       *    Explanation: 2 is the 2nd smallest element in the BST.
+ */
 import java.util.Set;
 import java.util.TreeSet;
 
