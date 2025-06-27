@@ -3,7 +3,7 @@ package BINARY_SEARCH;
 public class Decreasing_Binary_Search {
     static int binary(int arr[], int ele){
         int n = arr.length;
-        int i =0;
+        int i = 0;
         int j = n-1;
         while (i<=j){
             int mid = i+j-i/2;
