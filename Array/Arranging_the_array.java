@@ -8,7 +8,7 @@ The order of appearance should be maintained.
 * */
 
 public class Arranging_the_array {
-    static void rearrange(int arr[]){
+    static void rearrange(int arr []){
         int n = arr.length;
 //        int n = arr.length;
         int pos[] = new int[n];
