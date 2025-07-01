@@ -8,7 +8,7 @@ public class Minimum_Jump {
         int maxindex= 0;
         for (int i =0;i<n;i++){
             if (i>maxindex)return false;
-            maxindex = Math.max(maxindex,arr[i]+i);
+            maxindex = Math.max(maxindex,arr[i] + i);
         }
         return true;
     }
