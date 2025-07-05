@@ -56,6 +56,6 @@ public class Array_Maximum_Index {
             }
         }
 
-        return Math.max(ans, j-i-1);
+        return Math.max(ans, j. -i-1);
     }
 }
