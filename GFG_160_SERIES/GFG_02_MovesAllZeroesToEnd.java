@@ -33,7 +33,7 @@ public class GFG_02_MovesAllZeroesToEnd {
             arr[count++] = arr[i];
         }
     }
-    while (count<n){
+    while (count < n){
         arr[count++] = 0;
     }
     }
