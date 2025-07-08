@@ -14,7 +14,7 @@ public class GFG_05_NEXT_PERMUTATION {
         // code here
         int n = arr.length;
         int index;
-        for (index = n-2; index>=0;index--){
+        for (index = n-2; index> =0;index--){
             if (arr[index]<arr[index+1]){
                 break;
             }
