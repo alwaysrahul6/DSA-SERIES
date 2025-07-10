@@ -35,7 +35,7 @@ public class ArrayLeader {
         int[] arr = { 16, 17, 4, 3, 5, 2 };
         ArrayList<Integer> result = leader(arr);
         for (int res : result) {
-            System.out.print(res + " ");
+            System.out.print(res + "  ");
         }
         System.out.println();
     }
