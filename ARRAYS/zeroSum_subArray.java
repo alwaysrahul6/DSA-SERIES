@@ -14,7 +14,7 @@ public class zeroSum_subArray {
         }
         System.out.println(findSubarray(arr));
     }
-    static int findSubarray(int arr[]){
+    static int findSubarray(int arr [] ){
         HashMap<Integer,Integer> map = new HashMap<>();
         map.put(0,1);
         int ans= 0;
