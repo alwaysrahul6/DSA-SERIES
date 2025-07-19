@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.Scanner; 
 
 public class zeroSum_subArray {
-    public static void main(String[] args) {
+    public static void main(String[] args) {        
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Size:");
         int n = sc.nextInt();
@@ -25,7 +25,7 @@ public class zeroSum_subArray {
 //            if (map.containsKey(sum)) {
 //                ans += map.get(sum);
 //            }
-            map.put(sum, map.getOrDefault(sum, 0) + 1);
+            map.put(sum, map.getOrDefault(sum, 0) +   1);
         }
         return ans;
 
