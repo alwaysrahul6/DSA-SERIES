@@ -17,7 +17,7 @@ public class Painter_Partion {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         // Input number of walls and painters
-        System.out.println("Enter number of walls and painters (separated by space):");
+        System.out.println("Enter number of walls and painters (separated by space)  : ");
         int n = scanner.nextInt();
         int k = scanner.nextInt();
         // Input array of time for each wall
