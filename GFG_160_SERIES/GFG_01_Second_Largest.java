@@ -10,7 +10,7 @@ Explanation: The largest element of the array is 35 and the second largest eleme
 import java.util.Scanner;
 
 public class GFG_01_Second_Largest {
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
         Scanner sc  = new Scanner(System.in);
         System.out.println("Enter Size");
         int n = sc.nextInt();
