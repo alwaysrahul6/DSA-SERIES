@@ -5,7 +5,7 @@ Last Updated : 09 Nov, 2024
 Given an array arr[] of integers, the task is to arrange them such that all negative integers appear before all the positive integers
 in the array without using any additional data structure like a hash table, arrays, etc.
 The order of appearance should be maintained.
-* */
+* */   
 
 public class Arranging_the_array {
     static void rearrange(int arr []){
