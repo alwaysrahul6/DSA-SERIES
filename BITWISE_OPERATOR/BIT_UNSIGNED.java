@@ -1,4 +1,4 @@
-package BITWISE_OPERATOR;
+package BITWISE_OPERATOR;   
 
 public class BIT_UNSIGNED {
     public static void main(String[] args) {
