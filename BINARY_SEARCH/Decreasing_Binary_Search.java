@@ -1,5 +1,5 @@
 package BINARY_SEARCH;
-
+   
 public class Decreasing_Binary_Search {
     static int binary(int arr[], int ele){
         int n = arr.length;
