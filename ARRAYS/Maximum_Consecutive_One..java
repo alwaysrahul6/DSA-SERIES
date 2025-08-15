@@ -1,5 +1,5 @@
 package ARRAYS;
-
+  
 public class Maximum_Consecutive_One {
     static int consecutive(int arr[]){
         int max = 0;
