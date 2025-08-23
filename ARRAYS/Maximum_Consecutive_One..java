@@ -19,4 +19,4 @@ public class Maximum_Consecutive_One {
         int arr[] = {1,1,0,1,1,1,0};
         System.out.println(consecutive(arr));
     }
-}
+} 
