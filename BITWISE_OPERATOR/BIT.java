@@ -16,4 +16,4 @@ public class BIT {
         System.out.println(m);
 
     }
-}
+}.  
