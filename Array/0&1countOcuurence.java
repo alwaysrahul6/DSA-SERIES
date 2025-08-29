@@ -1,4 +1,4 @@
-package ARRAYS;
+package ARRAYS;  
 /*
 https://www.geeksforgeeks.org/batch/gfg-160-problems/track/sorting-gfg-160/problem/sort-an-array-of-0s-1s-and-2s4231
 Sort 0s, 1s and 2s
