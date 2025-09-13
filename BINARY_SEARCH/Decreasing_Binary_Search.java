@@ -23,3 +23,4 @@ public class Decreasing_Binary_Search {
         System.out.println(binary(arr,ele));
     }
 }
+  
