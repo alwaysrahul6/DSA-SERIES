@@ -83,5 +83,5 @@ public class LAMBDA_EXPRESSION {
 interface  Mathopertaion {
     int operator(int a , int b);
 }
-
+   
 
