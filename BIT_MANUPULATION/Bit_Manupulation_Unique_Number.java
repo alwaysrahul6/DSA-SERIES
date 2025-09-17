@@ -1,4 +1,4 @@
-package BIT_MANUPULATION;
+package BIT_MANUPULATION;  
 /*
  * https://www.geeksforgeeks.org/batch/gfg-160-problems/track/bit-manipulation-gfg-160/problem/find-unique-number
  *
