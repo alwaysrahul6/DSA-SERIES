@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Binary_Search {
     static int binary(int arr[],int ele){
         int n = arr.length;
-        int i =0,j = n-1,ans= -1;
+        int i =0,j = n-1,ans= -1; 
         while (i<j){
             int mid = i+(j-i)/2;
 //            System.out.println(mid);
