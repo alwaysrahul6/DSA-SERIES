@@ -1,0 +1,78 @@
+package GFG_POTD;
+/*
+ *  https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
+ *  Rat in a Maze
+ *  Q. Consider a rat placed at position (0, 0) in an n x n square matrix maze[][]. The rat's goal is to reach the destination at position (n-1, n-1). The rat can move in four possible directions: 'U'(up), 'D'(down), 'L' (left), 'R' (right).
+ *  The matrix contains only two possible values:
+ *  0: A blocked cell through which the rat cannot travel.
+ *  1: A free cell that the rat can pass through.
+ *  Your task is to find all possible paths the rat can take to reach the destination, starting from (0, 0) and ending at (n-1, n-1), under the condition that the rat cannot revisit any cell along the same path. Furthermore, the rat can only move to adjacent cells that are within the bounds of the matrix and not blocked.
+ *  If no path exists, return an empty list.
+ *  Note: Return the final result vector in lexicographically smallest order
+ *
+ *  Input: maze[][] = [[1, 0, 0, 0],
+ *                    [1, 1, 0, 1], 
+ *                    [1, 1, 0, 0], 
+ *                    [0, 1, 1, 1]]
+ *  Output: ["DDRDRR", "DRDDRR"]
+ *  Explanation: The rat can reach the destination at (3, 3) from (0, 0) by two paths - DRDDRR and DDRDRR, when printed in sorted order we get DDRDRR DRDDRR.
+ *  */
+
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class GFG_POTD_01_Rat_In_Maze {
+
+    /// main Method
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Size of the squire matrix: ");
+        int n = sc.nextInt();
+
+        int[][] maze = new int[n][n];
+
+        System.out.println("Enter elements: (0/1)");
+        for (int i = 0; i < n; i++)
+            for (int j = 0; j < n; j++)
+                maze[i][j] = sc.nextInt();
+
+        // answer
+        ArrayList<String> paths = ratInMaze(maze);
+
+        System.out.println("Possible paths: ");
+        for (String path : paths)
+            System.out.println(path);
+    }
+
+    //Solutions
+    public static ArrayList<String> ratInMaze(int[][] maze) {
+        int n = maze.length;
+        int m = maze[0].length;
+        boolean [][]visited = new boolean[n][m];
+        ArrayList<String> ans = new ArrayList<>();
+        String s = "";
+        solveMaze(0 ,0 ,n, m ,visited , ans , maze,s);
+
+        return ans;
+
+    }
+
+    private static void solveMaze(int i , int j ,int n, int m, boolean[][] visited, ArrayList<String> ans, int[][] maze, String s) {
+        if (i == m-1 && j == n-1){
+            ans.add(s);
+        }
+        if (i < 0 || j < 0 || i >= n || j >= m || maze[i][j]==0 || visited[i][j]) return;
+        visited[i][j] =  true;
+
+        //recursive call in 4 direction
+        solveMaze(i ,  j +1,  n , m ,visited,ans,maze,s + "R");
+        solveMaze(i-1 ,  j,  n , m ,visited,ans,maze,s+"U");
+        solveMaze(i ,  j - 1,  n , m ,visited,ans,maze,s+"L");
+        solveMaze(i + 1 ,  j,  n , m ,visited,ans,maze,s+"D");
+
+        visited[i][j] = false;
+    }
+}
+
