@@ -7,7 +7,7 @@ in the array without using any additional data structure like a hash table, arra
 The order of appearance should be maintained.
 * */   
 
-public class Arranging_the_array {
+public class Arranging_the_array {  
     static void rearrange(int arr []){
         int n = arr.length;
 //        int n = arr.length;
