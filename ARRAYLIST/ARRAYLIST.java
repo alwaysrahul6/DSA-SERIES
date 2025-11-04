@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class ARRAYLIST {
     public static void main(String[] args) {
-//        Integer i = Integer.valueOf(4);
+//        Integer i = Integer.valueOf(4); 
 //        System.out.println(i);
 //        Float k = Float.valueOf(8.2F);
 //        System.out.println(k);
