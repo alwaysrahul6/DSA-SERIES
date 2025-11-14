@@ -3,7 +3,7 @@ package BINARY_SEARCH;
 Example: arr[2,2,4,4,6,8,9]   
 K = 4
 Output: 3
-* */
+* */  
 import java.util.Scanner;
 
 public class FIRST_OCCURENCE {   
