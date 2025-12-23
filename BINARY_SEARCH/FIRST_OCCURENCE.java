@@ -1,4 +1,4 @@
-package BINARY_SEARCH;
+package BINARY_SEARCH; 
 /*Q-Find 1st Occurence of an Element?
 Example: arr[2,2,4,4,6,8,9]     
 K = 4
