@@ -8,7 +8,7 @@ Your task is to find all the leaders in the array.
 Examples:
 Input: arr = [16, 17, 4, 3, 5, 2]
 Output: [17, 5, 2]
-Explanation: Note that there is nothing greater on the right side of 17, 5 and, 2.
+Explanation: Note that there is nothing greater on the right side of 17, 5 and, 2.  
 */
 import java.util.ArrayList;
 import java.util.Collections;
