@@ -1,6 +1,6 @@
 package LeetCode;
 
-import java.util.Scanner;
+import java.util.Scanner; 
 /*
  * Smallest Stable Index I
  * Q. You are given an integer array nums of length n and an integer k.
